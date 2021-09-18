@@ -1,0 +1,11 @@
+.nav{
+    /* max-height: 20vh; */
+    flex:0.10;
+    max-width: 100vw;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
