@@ -6,8 +6,11 @@ import Projects from './components/Projects';
 import Contact  from './components/Contact';
 import About from './components/About';
 import Ideas from './components/Ideas'
-
-
+import Face from './components/projects/Face'
+import Bots from './components/projects/Bots';
+import System from './components/projects/System';
+import Stocks from './components/projects/Stocks';
+import Mlp from './components/projects/Mlp';
 
 function App() {
   return (
@@ -17,6 +20,15 @@ function App() {
        <Route exact path="/contact" ><Contact/></Route>
        <Route exact path="/about" ><About/></Route>
        <Route exact path="/ideas" ><Ideas/></Route>
+       <Route exact path="/projects/face" ><Face/></Route>
+       <Route exact path="/projects/stock" ><Stocks/></Route>
+       <Route exact path="/projects/bots" ><Bots/></Route>
+       <Route exact path="/projects/system" ><System/></Route>
+       <Route exact path="/projects/mlp" ><Mlp/></Route>
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Nav';
-import logo from './images/about.jpg'
+import logo from './images/image2.jpeg'
 import {Link} from 'react-router-dom'
 function About() {
     return (
@@ -22,11 +22,11 @@ function About() {
                 </div>
                 <div className='butt' style={{marginLeft:'2vw'}}>
                     <button >
-                     <Link to='/' className='link'>
-                     Home
-                     </Link>   
+                     <Link to='/projects' className='link'>
+                     Projects
+                     </Link>
                     </button>
-
+                    
                 </div>
                 </div>
                 <div className='image'>

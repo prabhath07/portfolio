@@ -34,7 +34,6 @@ function Home() {
                     <button>
                         <Link to='/about' className='link'>
                         See More
-
                         </Link>
                     </button>
 

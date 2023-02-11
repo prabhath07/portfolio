@@ -1,7 +1,10 @@
 import React from 'react'
 import Nav from  './Nav';
 import emailjs from 'emailjs-com'
-
+import FacebookIcon from '@material-ui/icons/Facebook';
+import { Link } from 'react-router-dom';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
 function Contact() {
     function sendEmail(e) {
         e.preventDefault();
@@ -32,7 +35,17 @@ function Contact() {
             <textarea className="message" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
             <input type="submit" className="sub" value="Send "></input>
             </form>
-            </div>
+                <div className='icons'>
+                        <a className='link' href='https://www.facebook.com/prabhath.akula.3/'><FacebookIcon/></a>
+                        <a className='link' href='https://www.instagram.com/prabhath_akula/'><InstagramIcon/></a>
+
+                        <a className='link' href='https://www.linkedin.com/in/prabhath-akula-a2817a194/'>
+                        <LinkedInIcon></LinkedInIcon>
+
+                        </a>
+                </div>
+                       
+         </div>
         </div>
 
 

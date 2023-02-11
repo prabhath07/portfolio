@@ -154,7 +154,7 @@ justify-content: center;
 }
 
 #this{
-  border-right:3px solid rgb(99, 102, 255);
+  /* border-right:3px solid rgb(99, 102, 255); */
   /* border-bottom: 2px solid white; */
 
 
@@ -194,6 +194,7 @@ justify-content: center;
   align-items: center;
   justify-content: space-around;
   width:8vw;
+  height:5vh;
   /* color: black; */
   /* background-color: #238636; */
   /* height */
@@ -258,9 +259,19 @@ form{
 
 
 }
+.icons{
+  display: flex;
+  width:20vw;
+  justify-content: space-around;
+  align-items: center;
+}
 .message{
   width:20vw;
   font-size: large;
+
+}
+.link:hover{
+  transform: scale(1.05);
 
 }
 .sub:hover{

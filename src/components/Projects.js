@@ -2,30 +2,16 @@ import React from 'react'
 import Nav from  './Nav';
 import {Link} from 'react-router-dom';
 import logo from './images/braille.png'
+import Sidebar from './Sidebar'
 
 function Projects() {
     return (
         <div className='screen'>
         <Nav/>
         <div className='main'>
-            <div className='sidebar'>
-                <div className='ptit' id='this' >
-              <Link className='link' to='/projects'> <span > Braille Character Recognition</span></Link> 
-                </div>
-                <div className='ptit'>
-               <Link className='link' to='/projects/face'> <span > Face Recognition</span></Link>
-                </div>
-                <div className='ptit'>
-              <Link className='link' to = '/projects/stock'>  <span > Stock prediction using RNN</span></Link>
-                </div>
-                <div className='ptit'>
-             <Link className='link' to = '/projects/system'>   <span > Recommendation System</span></Link>
-                </div>
-                <div className='ptit'>
-              <Link className='link' to = '/projects/bots'>  <span > Reinforcement Bots</span></Link>
-                </div>
+            <Sidebar/>
+              
 
-            </div>
             <div className='pmain'>
                 <div className='description'>
                     <div className='ptitle'>
@@ -40,7 +26,7 @@ function Projects() {
 
                      </div>
                      <div className='git'>
-                       <a className='link' id='git'> <img src='https://www.tensorflow.org/images/colab_logo_32px.png'/> <span className='giticon'> NoteBook</span></a>
+                       {/* <a className='link' id='git'> <img src='https://www.tensorflow.org/images/colab_logo_32px.png'/> <span className='giticon'> NoteBook</span></a> */}
                        <a className='link' href ='https://github.com/prabhath07/Braille-charcter-recognition' id='git'> <img src='https://www.tensorflow.org/images/GitHub-Mark-32px.png'/> <span className='giticon'> Git Repo</span></a>
                        
                        {/* <Link className='link'>  <span className='Colabicon'> Notebook</span></Link> */}

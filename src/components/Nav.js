@@ -14,7 +14,7 @@ import {Dropdown} from 'react-bootstrap'
 
              
              <p>
-             <Link to ='/ideas' className='link'> Ideas</Link>  
+             <Link to ='/ideas' className='link'> Meet</Link>  
              </p> 
              <p>
              <Link to ='/about' className='link'>About</Link>  
